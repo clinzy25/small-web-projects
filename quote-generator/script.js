@@ -3,7 +3,7 @@ const quoteText = document.querySelector('#quote');
 const authorText = document.querySelector('#author');
 const twitterBtn = document.querySelector('#twitter');
 const newQuoteBtn = document.querySelector('#new-quote');
-const loader = document.querySelector('#loader')
+const loader = document.querySelector('#loader');
 
 
 let apiQuotes = [];
