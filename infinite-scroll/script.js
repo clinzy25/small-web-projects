@@ -4,7 +4,6 @@ let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=
 
 const imageContainer = document.querySelector('#image-container');
 const loader = document.querySelector('#loader');
-const h2 = document.querySelector('h2')
 
 let fetchedPhotos = [];
 let loadMore = false;
