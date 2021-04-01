@@ -64,9 +64,7 @@ function loadSong(song) {
     image.src = `./img/${song.name}.jpg`;
 }
 
-/**
- * Next / prev
- */
+/** Next / prev */
 let songIndex = 0;
 
 function nextSong() {
@@ -87,15 +85,11 @@ function prevSong() {
     playSong();
 }
 
-/**
- * On-load select first song
- */
+/** On-load select first song */
 
 loadSong(songs[songIndex]);
 
-/**
- * Update progress bar & time
- */
+/** Update progress bar & time */
 function updateProgressBar(e) {
     if (isPlaying) {
         const { duration, currentTime } = e.srcElement;

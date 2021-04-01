@@ -23,6 +23,7 @@ h2 {
     word-wrap: break-word;
 }
 
+/* Width of 1% and break-word above make text vertical */
 .vertical-text-container {
     position: fixed;
     width: 1%;
@@ -62,15 +63,9 @@ h2 {
     }
 
     h2 {
-        color: black;
-        text-align: center;
-        transform: translate(50%, 50%);
-        letter-spacing: 3px;
-        word-wrap: normal;
-    }
-    .vertical-text {
-        position: static;
-        width: 100%;
+        font-size: 5vh;
+        color: white;
+        transform: translate(50%, 10%);
     }
 
     .image-container {

@@ -6,7 +6,7 @@ const newQuoteBtn = document.querySelector('#new-quote');
 const loader = document.querySelector('#loader');
 
 /**
- * @var{array} apiQuotes container for quote fetch populated on-load, once only.
+ * @type {Array} apiQuotes container for quote fetch populated on-load, once only.
  */
 let apiQuotes = [];
 
@@ -22,7 +22,7 @@ function removeLoadingSpinner() {
 
 /**
  * Select random quote from api fetch
- * Populate @element quoteContainer with relevant data
+ * Populate @const quoteContainer with relevant data
  */
 function newQuote() {
     showLoadingSpinner();
@@ -61,7 +61,5 @@ function tweetQuote() {
 newQuoteBtn.addEventListener('click', newQuote);
 twitterBtn.addEventListener('click', tweetQuote);
 
-/**
- * On-load
- */
+/** On-load */
 getQuotes();

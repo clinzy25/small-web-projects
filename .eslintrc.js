@@ -3,7 +3,12 @@ module.exports = {
         browser: true,
         es2020: true,
     },
-    extends: ['airbnb-base', 'plugin:jsdoc/recommended', 'prettier'],
+    extends: [
+        'airbnb-base',
+        'plugin:jsdoc/recommended',
+        'prettier',
+        'plugin:html',
+    ],
     parserOptions: {
         ecmaVersion: 12,
         sourceType: 'module',

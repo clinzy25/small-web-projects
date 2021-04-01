@@ -73,7 +73,7 @@ nav li a {
     font-size: 1.7rem;
 }
 
-nav li #nav-1-text {
+nav li a#nav-1-text {
     color: var(--navColor5);
 }
 
@@ -97,23 +97,9 @@ nav li a:hover {
     transform: scale(1.2);
 }
 
-nav li a::before {
-    content: '';
-    width: 25vw;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    top: 47.5%;
-    left: 0;
-    opacity: 0;
-}
-
-nav li a:hover::before {
-    opacity: 1;
-}
-
 nav li:nth-of-type(1) {
     background-color: var(--navColor1);
+    color: var(--navColor5);
 }
 
 nav li:nth-of-type(2) {
@@ -130,6 +116,21 @@ nav li:nth-of-type(4) {
 
 nav li:nth-of-type(5) {
     background-color: var(--navColor5);
+}
+
+nav li a::before {
+    content: '';
+    width: 25vw;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 47.5%;
+    left: 0;
+    opacity: 0;
+}
+
+nav li a:hover::before {
+    opacity: 1;
 }
 
 /* Slide in animation with delay */

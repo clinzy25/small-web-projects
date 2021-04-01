@@ -53,6 +53,7 @@ h3 {
 }
 
 /* Progress */
+
 .progress-container {
     background: #fff;
     border-radius: 5px;
@@ -78,6 +79,7 @@ h3 {
 }
 
 /* Controls */
+
 .player-controls {
     position: relative;
     top: -15px;
@@ -104,6 +106,7 @@ h3 {
 }
 
 /* Media Query: iPhone (Vertical) */
+
 @media screen and (max-width: 376px) {
     .player-container {
         width: 95vw;

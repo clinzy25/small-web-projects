@@ -1,3 +1,7 @@
+View at: https://facerecognitionbrain0.herokuapp.com/
+
+-   server may take up to 10s to respond
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -5,8 +5,15 @@ const nav2 = document.querySelector('#nav-2');
 const nav3 = document.querySelector('#nav-3');
 const nav4 = document.querySelector('#nav-4');
 const nav5 = document.querySelector('#nav-5');
+
 const navItems = [nav1, nav2, nav3, nav4, nav5];
 
+/**
+ * Iterate @name{navItems} and apply slide 'in' or 'out' class
+ * On-load is 'out' (defined on html)
+ * @param {string} direction1 - 'in' || 'out'
+ * @param {string} direction2 - 'in' || 'out'
+ */
 function navAnimation(direction1, direction2) {
     navItems.forEach((nav, i) => {
         nav.classList.replace(
