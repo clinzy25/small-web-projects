@@ -13,6 +13,8 @@ module.exports = {
         'no-console': 'off',
         'jsdoc/require-jsdoc': 'off',
         'jsdoc/require-param': 'off',
+        'jsdoc/newline-after-description': 'off',
+        'no-plusplus': 'off',
     },
 };
 
