@@ -5,12 +5,15 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^32.3.0"
+    "eslint-plugin-jsdoc": "^32.3.0",
+    "typescript": "^4.2.4"
   },
   "name": "small-web-projects",
   "description": "View at : https://clinzy25.github.io/small-web-projects/",

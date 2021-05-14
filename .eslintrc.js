@@ -3,8 +3,14 @@ module.exports = {
         browser: true,
         es2020: true,
     },
-    extends: ['airbnb-base', 'plugin:jsdoc/recommended', 'prettier'],
-    plugins: ['html'],
+    extends: [
+        'airbnb-base',
+        'plugin:jsdoc/recommended',
+        'prettier',
+        'plugin:@typescript-eslint/recommended',
+    ],
+    plugins: ['html', '@typescript-eslint'],
+    parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 12,
         sourceType: 'module',
@@ -16,6 +22,7 @@ module.exports = {
         'jsdoc/require-param': 'off',
         'jsdoc/newline-after-description': 'off',
         'no-plusplus': 'off',
+        'spaced-comment': 'off',
     },
 };
 
