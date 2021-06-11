@@ -1,6 +1,15 @@
-AOS.init({
-    delay: 200, // values from 0 to 3000, with step 50ms
-    duration: 500, // values from 0 to 3000, with step 50ms
-    easing: 'ease', // default easing for AOS animations
-    mirror: false, // whether elements should animate out while scrolling past them
+const projectLink = document.querySelectorAll('.project-link');
+
+const showBracket = (element) => {
+    const bracket = document.createElement('span');
+    bracket.textContent = '<';
+    element.appendChild(bracket);
+};
+const removeBracket = (element) => {
+    element.lastChild.remove();
+};
+
+projectLink.forEach((link, index) => {
+    link.addEventListener('mouseover', () => showBracket(link));
+    link.addEventListener('mouseout', () => removeBracket(link));
 });
